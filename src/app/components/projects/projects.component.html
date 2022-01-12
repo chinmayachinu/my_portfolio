@@ -1,0 +1,43 @@
+<div class="project text-center">
+    <h2 class="project-title">Projects</h2>
+    <div class="project_header">
+        <p class="text_align_justify">
+            These are some my projects build on top of various technology and frameworks.These things I have developed
+            or written during my academic and professional career.There are many projects developed during learning a
+            new framework or technology and some of are developed for fun.
+            Among these some of my favourite and eye catching.
+        </p>
+        <div class="">
+            Such as - <ul class="project_header_ul_style text_align_left">
+                <li>Javascript Project(10+ javascript project like PubgHealingAnimation,
+                    JsFiddleLoadingAnimation,Calculator,FlipkartZoomEffect,HeartRainingAnimation,Popup,Soundbar etc)
+                </li>
+                <li>
+                    Spring Boot Projects(With Angular & React)
+                </li>
+                <li>
+                    Know Your Birth Date Day(Based On Gregorian Calendar)
+                </li>
+                <li>
+                    Birthday Wish Android Project
+                </li>
+                <li>
+                    CSV file reading in Java (Without any library)
+                </li>
+            </ul>etc...
+        </div>
+
+        Feel free to go through them.
+    </div>
+</div>
+<div class="d-flex flex-wrap align-items-center justify-content-around">
+    <div class="mt-4" *ngFor="let project of projectsDirectlyObtainedFromGithub">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{project.name}}</h5>
+
+                <a [attr.href]="project.html_url" class="card-link proj_btn" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>

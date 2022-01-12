@@ -1,0 +1,52 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+}
+.contact {
+  word-break: break-word;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
+}
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #000000;
+}
+.contact h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #2a7fff;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.text_align_justify {
+  text-align: justify;
+}
+.text_align_left {
+  text-align: left;
+}
+.custom_container {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.3rem;
+}
+.list_style_none {
+  list-style: none;
+}
+strong{
+    color: #2a7fff;
+}

@@ -1,0 +1,130 @@
+#main{
+    margin-top: 50px;
+}
+.resume{
+    margin-bottom: 50px;
+}
+.custom_container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title p {
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 2.3rem;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #2a7fff;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.list_style_none{
+    list-style: none;
+}
+
+.my_project_color{
+    color: #2a7fff;
+}
+
+.row strong{
+    color: #2a7fff;
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222222;
+    font-family: "Roboto";
+    line-height: 1.2;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #2a7fff;
+    position: relative;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #2a7fff;
+}
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #2a7fff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.resume .resume-item p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2a7fff;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: "Roboto";
+}
+
+.fst-italic{
+    line-height: 2.3rem;
+}

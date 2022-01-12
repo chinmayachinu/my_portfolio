@@ -1,0 +1,92 @@
+.container-fluid{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 80vh;
+}
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+}
+.color_text{
+    color: #2A7FFF;
+}
+.greeting{
+    font-weight: 300;
+    line-height: 33px;
+}
+.name{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+.sub_description{
+    font-weight: normal;
+    line-height: 33px;
+}
+button{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    color: #2A7FFF;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.resume{
+    width: 250px;
+    height: 70px;
+}
+.hire_me{
+    width: 150px;
+    height: 70px;
+}
+button:hover{
+    border: 2px solid #2A7FFF;
+}
+.social_links{
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.social_links a {
+    border: 1px solid #2A7FFF;
+    outline: none;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #000000;
+    text-decoration: none;
+}
+.fa{
+    font-size: 26px;
+ }
+ .social_links a:hover{
+    border: 2px solid #2A7FFF;
+}
+
+.custom_btn{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding-left: 0 !important;
+}

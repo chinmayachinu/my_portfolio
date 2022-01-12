@@ -1,0 +1,37 @@
+<div class="container-fluid mt-4 mb-3">
+    <div class="row">
+        <div class="col-lg-12 hero">
+            <div class="description">
+                <div class="greeting">
+                    <span class="color_text">HEY</span> THERE!
+                </div>
+                <div class="name">
+                    <!-- I AM <span class="color_text">{{highlightName}}</span> PANIGRAHI -->
+                    I AM <span class="color_text">CHINMAYA</span> PANIGRAHI
+                </div>
+                <div class="sub_description">
+                    <!-- FULL STACK <span class="color_text">{{highlightFirstDesc}}</span><br>& <span
+                        class="color_text">{{highlightSecondDesc}}</span> -->
+                        FULL STACK <span class="color_text">WEB DEVELOPER</span><br>& <span
+                        class="color_text">DESIGNER</span>
+                </div>
+            </div>
+            <div class="btn custom_btn">
+                <!-- <button class="resume" (click)="downloadResume(1)">Download Resume</button> -->
+                <button class="resume" (click)="download()">Download Resume</button>
+                <button class="hire_me" routerLink="/contact" [routerLinkActive]="['active']">Hire Me</button>
+            </div>
+            <div class="social_links">
+                <a href="https://www.facebook.com/chinmayapanigrahi420">
+                    <fa-icon [icon]="faFacebook" class="fa"></fa-icon>
+                </a>
+                <a href="https://in.linkedin.com/in/chinmaya-panigrahi-579a84171?trk=profile-badge-cta">
+                    <fa-icon [icon]="faLinkedIn" class="fa"></fa-icon>
+                </a>
+                <a href="https://github.com/chinmayachinu">
+                    <fa-icon [icon]="faGithub" class="fa"></fa-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
